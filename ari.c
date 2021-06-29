@@ -1,7 +1,7 @@
 char* ari(char* st)
 {
-     char *s=st;int wrd_ct=0;int snt_count=0;int ch=0;
-     for(int i=0;*(s+i)!='\0';++i)
+     char *s=st;int wrd_ct=0;int snt_count=0;int ch=0,i;
+     for(i=0;*(s+i)!='\0';++i)
      {   if(*(st+i)==' ')
               wrd_ct++;
            if (*(st+i)=='.')
