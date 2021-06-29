@@ -6,6 +6,8 @@ char* ari(char* st)
               wrd_ct++;
            if (*(st+i)=='.')
               snt_count++;
+          if(*(st+i+1)=='\0')
+               break;
      }
                  ch=i;
                 int ari=(4.71*ch/wrd_ct)+(.5*wrd_ct/snt_count)-21.43; 
