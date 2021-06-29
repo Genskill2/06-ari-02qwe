@@ -10,7 +10,7 @@ string ari(string st)
  
                 int ari=(4.71*ch/wrd_ct)+(.5*wrd_ct/snt_count)-21.43; 
         
-                int class[]={"Kindergarten","First/Second Grade","Third Grade","Fourth Grade","Fifth Grade","Sixth Grade","Seventh Grade","Eighth Grade","Ninth Grade","Tenth Grade","Eleventh Grade","Twelfth grade","College student","Professor"};
+                string class[]={"Kindergarten","First/Second Grade","Third Grade","Fourth Grade","Fifth Grade","Sixth Grade","Seventh Grade","Eighth Grade","Ninth Grade","Tenth Grade","Eleventh Grade","Twelfth grade","College student","Professor"};
                 if(ari==(int)ari)
             return(class[ari-1]);
         else
