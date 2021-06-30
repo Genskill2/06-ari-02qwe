@@ -13,7 +13,7 @@ void test1() {
 
 void test2() { 
  string s2="A mouse took a stroll through the deep dark wood. A fox saw the mouse, and the mouse looked good. Where are you going to, little brown mouse? Come and have lunch in my underground house.";
-  assert(strcmp(ari(s2), "Eighth Grade") == 0);
+  assert(strcmp(ari(s2), "Third Grade") == 0);
 }
 
 void test3() {
