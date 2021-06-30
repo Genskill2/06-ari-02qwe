@@ -11,10 +11,10 @@ char* ari(char* st)
                break;
      }
                  ch=i;
-                int ari=(4.71*ch/wrd_ct)+(.5*wrd_ct/snt_count)-21.43; 
+                int ari=(4.71*ch/++wrd_ct)+(.5*wrd_ct/++snt_count)-21.43; 
         if(ari==(int)ari)
-            return(class[ari-1]);
+            return(class[ari-2]);
         else
-            return(class[ari]);
+            return(class[ari-1]);
                 
 }        
