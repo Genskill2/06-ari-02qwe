@@ -15,8 +15,10 @@ char* ari(char* st)
        if(ari>14)
             ari=14;
         if(ari==(int)ari)
-            return(class[ari-2]);
+        {ari=(int)ari;
+            return(class[ari-2]);}
         else
-            return(class[ari-1]);
+        {  ari=(int)ari;
+            return(class[ari-1]);}
                 
 }        
