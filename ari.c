@@ -16,9 +16,9 @@ char* ari(char* st)
             ari=14;
         if(ari==(int)ari)
         {
-            return(class[(int)ari-2]);}
+            return(class[(int)(ari)-2]);}
         else
         {  
-            return(class[(int)ari-1]);}
+            return(class[(int)(ari)-1]);}
                 
 }        
