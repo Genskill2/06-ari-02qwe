@@ -12,6 +12,8 @@ char* ari(char* st)
      }
                  ch=i;
                 int ari=(4.71*ch/++wrd_ct)+(.5*wrd_ct/++snt_count)-21.43; 
+       if(ari>14)
+            ari=14;
         if(ari==(int)ari)
             return(class[ari-2]);
         else
